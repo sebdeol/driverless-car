@@ -12,8 +12,8 @@ Follow the steps below to set up and run the python application on your local ma
 
 ## Installation
 
-The application has been developed and tested with Python 3.11.
-Ensure that both [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) are installed on your computer before con.
+The application has been developed and tested with Python 3.11 (Python, 2023)
+Ensure that both [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) are installed on your computer.
 
 ### Instructions to execute the Driverless Car Application
 
@@ -74,18 +74,29 @@ The main `Car` class integrates all the subsystems: `AutonomousNavigation`, `Env
 
 This classes have been developed with encapsulation and separation of concerns in mind. This allows for better maintainability and extensibility down the line.
 
-Automated tests have been written with `pytest` for each class to ensure their functionality works as expected.
+Automated tests have been written using `pytest` for each class to ensure their functionality works as designed.
 
 ## Future Improvements
+
 With more time, here are a few things that could be improved:
 
-Navigation Algorithms: The navigation algorithm could be improved by implementing a more advanced path-finding algorithm like Dijkstra's or A*.
+Navigation Algorithms: The navigation algorithm could be improved by implementing a more advanced path-finding algorithm like Dijkstra's or A*. (Rachmawati and Gustin, 2020)
 
-Detailed Environment and Sensor Simulation: Currently, object detection is randomised for simplicity.
-In a real-world scenario, a detailed environment with real obstacles would make the simulation more engaging.
+Detailed Environment and Sensor Simulation: Currently, object detection is randomised for simplicity. In a real-world scenario, a detailed environment with real obstacles would make the simulation more engaging.
 
-Support more User Interactions: The UserInteraction class could be extended to support more commands and provide a richer interaction for the user such as phone interaction, radio support and why not video games like in a Tesla car.
+Support more User Interactions: The `UserInteraction` class could be extended to support more commands and provide a richer interaction for the user such as phone interaction, radio support or even video games like in a Tesla car. (Lambert, 2022)
 
 Machine Learning Integration: The use of machine learning could improve decision-making, object detection, and user preferences adaptation, leading to a more intelligent car.
 
 These improvements could bring the simulation closer to the complexity of a real driverless car system while maintaining the code's modularity and extensibility.
+
+## References
+
+Python (2023). Python. [online] Python.org. Available from: https://www.python.org/. [Accessed 16 July 2023].
+
+Rachmawati, D. and Gustin, L. (2020). Analysis of Dijkstra’s Algorithm and A* Algorithm in Shortest Path Problem.
+Journal of Physics: Conference Series, 1566, p.012061. DOI:https://doi.org/10.1088/1742-6596/1566/1/012061.
+
+Lambert, F. (2022). Tesla launches Steam in its cars with thousands of games. [online] Electrek.
+Available from: https://electrek.co/2022/12/13/tesla-launches-steam-cars-games/. [Accessed 16 July 2023].
+
