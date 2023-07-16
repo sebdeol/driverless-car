@@ -39,6 +39,11 @@ python3 -m pip install -r requirements.txt
 python3 app/car.py
 ```
 
+4.a) On Codio, you might need to run this command instead:
+```bash
+PYTHONPATH=. python3 app/car.py
+```
+
 5) If you successfully followed the instructions, the application will start displaying the logs of the various systems like below:
 
 ```bash
